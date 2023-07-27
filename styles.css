@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+#piano{
+    width: 1100px;
+    height: 400px;
+    background-color: #377848;
+    border-radius: 10px;
+    margin: 80px auto;
+    padding: 80px 0 0 130px;
+}
+.keys{
+    background-color: black;
+    width: 798px;
+    height: 190px;
+    padding-left: 3px;
+}
+.key{
+    background-color: white;
+    height: 185px;
+    margin: 2px;
+    width: 40px;
+    float: left;
+    border-radius: 4px;
+}
+.black-key{
+    height: 100px;
+    width: 20px;
+    background-color: black;
+}
+.heading{
+    color: white;
+    text-decoration: underline;
+    font-family: "sans-serif";
+    font-style: italic;
+    text-align: center;
+}
